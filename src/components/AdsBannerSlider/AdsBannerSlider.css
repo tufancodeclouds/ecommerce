@@ -1,0 +1,43 @@
+.adsbannerslider-wrapper {
+    overflow: inherit !important;
+}
+
+.adsbannerslider .item {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.adsbannerslider .item:hover img {
+    transform: scale(1.1);
+}
+
+.adsbannerslider .swiper-button-prev {
+    top : 55% !important;
+    left: 3px !important;
+}
+
+.adsbannerslider .swiper-button-next {
+    top: 55% !important;
+    right: 3px !important;
+}
+
+.adsbannerslider .swiper-button-prev, .adsbannerslider .swiper-button-next {
+    width: 30px;
+    height: 30px;
+    min-width: 30px;
+    border-radius: 100%;
+    background-color: #fff !important;
+    box-shadow: 0 1px 3px #0000001f, 0 1px 2px #0000003d !important;
+}
+
+.adsbannerslider .swiper-button-prev::after, .adsbannerslider .swiper-button-next::after {
+    font-size: 16px !important;
+    color: #ff5252 !important;
+}
+
+.adsbannerslider .swiper-button-prev:hover, .adsbannerslider .swiper-button-next:hover {
+    background-color: #ff5252 !important;
+}
+
+.adsbannerslider .swiper-button-prev:hover::after, .adsbannerslider .swiper-button-next:hover::after {
+    color: #fff !important;
+}

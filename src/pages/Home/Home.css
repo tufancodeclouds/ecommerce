@@ -1,0 +1,62 @@
+.MuiTabs-indicator {
+    background-color: #ff5252 !important;
+}
+
+.MuiTab-textColorPrimary.Mui-selected {
+    color: #ff5252 !important;
+}
+
+.shrinkbanner-wrapper .shrinkbanner-text {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    letter-spacing: 0;
+}
+
+.shrinkbanner-wrapper .shrinkbanner-text .shrinkbanner-title {
+    font-weight: 700;
+    font-size: 45px;
+    text-transform: uppercase;
+    line-height: 45px;
+}
+
+.shrinkbanner-wrapper .shrinkbanner-text .shrinkbanner-desc {
+    font-size: 16px;
+    margin-inline-start: 31px;
+}
+
+.shrinkbanner-wrapper .shrinkbanner-img {
+    -webkit-transition: all 2000ms ease 0s;
+    -moz-transition: all 2000ms ease 0s;
+    -o-transition: all 2000ms ease 0s;
+    transition: all 2000ms ease 0s;
+    max-width: 100%;
+    height: auto;
+}
+
+.shrinkbanner-wrapper .shrinkbanner:hover .shrinkbanner-img {
+    -webkit-transform: scale(1.07);
+    -ms-transform: scale(1.07);
+    transform: scale(1.07);
+    -webkit-transition: all 2000ms ease 0s;
+    -moz-transition: all 2000ms ease 0s;
+    -o-transition: all 2000ms ease 0s;
+    transition: all 2000ms ease 0s;
+}
+
+.shrinkbanner-wrapper .shrinkbanner-text .shrinkbanner-desc span {
+    display: block;
+}
+
+.shrinkbanner-wrapper .shrinkbanner-text .shrinkbanner-desc span {
+    display: block;
+}
+
